@@ -6,14 +6,8 @@ Frontend:Android fitness app that tracks your activity. It takes as an input a g
 Backend:A distributed system  java program with a "master" and multiple "worker" nodes. It uses that deisgn to split,process and analyze date from a GPX(GPS file format) files in chunks.
 
 GPX file format:
-<?xml version="1.0"?>
-<gpx version="1.1" creator="user1">
-<wpt lat="37.95001155239993" lon="23.69503479744284">
-    <ele>12.08</ele>
-    <time>2023-03-19T17:36:01Z</time>
-</wpt>
 
-</gpx>
+![image](https://github.com/user-attachments/assets/7faf5d7e-ea73-465e-9333-50c761ebddc9)
 
 
 # How to Run This Code:
