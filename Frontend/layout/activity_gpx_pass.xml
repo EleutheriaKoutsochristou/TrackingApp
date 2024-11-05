@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GpxPassLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="App.GpxPass"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="Upload your gpx file"
+        android:textColor="#123456"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/_8943" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#4863A0"
+        android:textColor="#E5E4E2"
+        android:onClick="choosegpx"
+        android:textSize="20dp"
+        android:text="Upload" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:onClick="launchbackmainmenu"
+        android:backgroundTint="#4863A0"
+        android:text="Back" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

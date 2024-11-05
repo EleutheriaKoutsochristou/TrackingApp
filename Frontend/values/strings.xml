@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrackingApp</string>
+    <string name="File_sent">File has been sent successfully! \nWaiting for results...</string>
+    <string name="channel_name">Results ready></string>
+</resources>
