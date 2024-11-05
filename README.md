@@ -12,12 +12,13 @@ GPX file format:
 
 # How to Run This Code:
 After compiling the code run the Master program:
+
 java Master <port_listen> <worker_amount> <chunk_size> <worker_ip1> <worker_port1> <worker_ip2> <worker_port2> ...
 
-<port_listen>: Port the master server listens on.
+- <port_listen>: Port the master server listens on.
 
-<worker_amount>: Number of worker nodes.
+- <worker_amount>: Number of worker nodes.
 
-<chunk_size>: Number of waypoints in each chunk sent to workers.
+- <chunk_size>: Number of waypoints in each chunk sent to workers.
 
-<worker_ip> and <worker_port> pairs for each worker node.
+- <worker_ip> and <worker_port> pairs for each worker node.
