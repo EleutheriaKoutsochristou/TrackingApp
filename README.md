@@ -1,6 +1,8 @@
 # TrackingApp
 University Project
+
 Frontend:Android fitness app that tracks your activity. It takes as an input a gpx file and calculates user specific/general statistics such as distance,time,eleveation,speed.
+
 Backend:A distributed system  java program with a "master" and multiple "worker" nodes. It uses that deisgn to split,process and analyze date from a GPX(GPS file format) files in chunks.
 
 GPX file format:
@@ -14,7 +16,7 @@ GPX file format:
 </gpx>
 
 
-How to Run This Code:
+# How to Run This Code:
 After compiling the code run the Master program:
 java Master <port_listen> <worker_amount> <chunk_size> <worker_ip1> <worker_port1> <worker_ip2> <worker_port2> ...
 
