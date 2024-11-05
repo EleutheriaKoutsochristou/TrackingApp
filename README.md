@@ -1,5 +1,5 @@
 # TrackingApp
-University Project
+University Team Project
 
 Frontend:Android fitness app that tracks your activity. It takes as an input a gpx file and calculates user specific/general statistics such as distance,time,eleveation,speed.
 
@@ -28,3 +28,9 @@ java Master <port_listen> <worker_amount> <chunk_size> <worker_ip1> <worker_port
 - <chunk_size>: Number of waypoints in each chunk sent to workers.
 
 - <worker_ip> and <worker_port> pairs for each worker node.
+
+
+Afterwards run the Worker Program:
+
+Each worker needs to be set up separately, listening for connections from the master.
+
