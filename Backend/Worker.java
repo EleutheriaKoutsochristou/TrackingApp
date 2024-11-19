@@ -1,7 +1,7 @@
-package App;
-
 import java.io.*;
 import java.net.*;
+
+//The Worker class is the main entry point for each worker node. It sets up a server to listen for incoming requests from the master and delegates work to the WorkerActions class.
 
 public class Worker {	
 	
